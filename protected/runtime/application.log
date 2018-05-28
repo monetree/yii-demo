@@ -1,0 +1,343 @@
+2018/05/28 22:05:25 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "ai". in /var/www/html/yii/framework/web/CController.php:486
+Stack trace:
+#0 /var/www/html/yii/framework/web/CController.php(270): CController->missingAction('ai')
+#1 /var/www/html/yii/framework/web/CWebApplication.php(282): CController->run('ai')
+#2 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('Site/ai/')
+#3 /var/www/html/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /var/www/html/demo/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/demo/index.php?r=Site/ai/
+---
+2018/05/28 22:05:39 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "Ai". in /var/www/html/yii/framework/web/CController.php:486
+Stack trace:
+#0 /var/www/html/yii/framework/web/CController.php(270): CController->missingAction('Ai')
+#1 /var/www/html/yii/framework/web/CWebApplication.php(282): CController->run('Ai')
+#2 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('Site/Ai/')
+#3 /var/www/html/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /var/www/html/demo/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/demo/index.php?r=Site/Ai/
+---
+2018/05/28 22:06:09 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "Ai". in /var/www/html/yii/framework/web/CController.php:486
+Stack trace:
+#0 /var/www/html/yii/framework/web/CController.php(270): CController->missingAction('Ai')
+#1 /var/www/html/yii/framework/web/CWebApplication.php(282): CController->run('Ai')
+#2 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('Site/Ai')
+#3 /var/www/html/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /var/www/html/demo/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/demo/index.php?r=Site/Ai
+---
+2018/05/28 22:06:56 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "ai". in /var/www/html/yii/framework/web/CController.php:486
+Stack trace:
+#0 /var/www/html/yii/framework/web/CController.php(270): CController->missingAction('ai')
+#1 /var/www/html/yii/framework/web/CWebApplication.php(282): CController->run('ai')
+#2 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('Site/ai')
+#3 /var/www/html/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /var/www/html/demo/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/demo/index.php?r=Site/ai
+---
+2018/05/28 22:30:06 [error] [php] Undefined variable: name (/var/www/html/demo/protected/controllers/BaseController.php:10)
+Stack trace:
+#0 /var/www/html/yii/framework/web/CController.php(286): BaseController->runAction()
+#1 /var/www/html/yii/framework/web/CController.php(265): BaseController->runActionWithFilters()
+#2 /var/www/html/yii/framework/web/CWebApplication.php(282): BaseController->run()
+#3 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /var/www/html/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#5 /var/www/html/demo/index.php(13): CWebApplication->run()
+REQUEST_URI=/demo/index.php?r=Base/ai
+in /var/www/html/demo/protected/controllers/BaseController.php (10)
+in /var/www/html/demo/index.php (13)
+2018/05/28 22:30:30 [error] [php] Undefined variable: name (/var/www/html/demo/protected/controllers/BaseController.php:10)
+Stack trace:
+#0 /var/www/html/yii/framework/web/CController.php(286): BaseController->runAction()
+#1 /var/www/html/yii/framework/web/CController.php(265): BaseController->runActionWithFilters()
+#2 /var/www/html/yii/framework/web/CWebApplication.php(282): BaseController->run()
+#3 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /var/www/html/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#5 /var/www/html/demo/index.php(13): CWebApplication->run()
+REQUEST_URI=/demo/index.php?r=Base/ai
+in /var/www/html/demo/protected/controllers/BaseController.php (10)
+in /var/www/html/demo/index.php (13)
+2018/05/28 22:30:39 [error] [php] include(Model.php): failed to open stream: No such file or directory (/var/www/html/yii/framework/YiiBase.php:432)
+Stack trace:
+#0 /var/www/html/demo/protected/models/BaseModel.php(2): spl_autoload_call()
+#1 /var/www/html/yii/framework/YiiBase.php(432): include()
+#2 unknown(0): autoload()
+#3 /var/www/html/demo/protected/controllers/BaseController.php(14): spl_autoload_call()
+#4 /var/www/html/yii/framework/web/actions/CInlineAction.php(49): BaseController->actionai()
+#5 /var/www/html/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#6 /var/www/html/yii/framework/web/CController.php(286): BaseController->runAction()
+#7 /var/www/html/yii/framework/web/CController.php(265): BaseController->runActionWithFilters()
+#8 /var/www/html/yii/framework/web/CWebApplication.php(282): BaseController->run()
+#9 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#10 /var/www/html/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#11 /var/www/html/demo/index.php(13): CWebApplication->run()
+REQUEST_URI=/demo/index.php?r=Base/ai
+in /var/www/html/demo/protected/models/BaseModel.php (2)
+in /var/www/html/demo/protected/controllers/BaseController.php (14)
+in /var/www/html/demo/index.php (13)
+2018/05/28 22:45:29 [error] [php] mysqli_num_rows() expects parameter 1 to be mysqli_result, string given (/var/www/html/demo/protected/controllers/BaseController.php:18)
+Stack trace:
+#0 /var/www/html/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /var/www/html/yii/framework/web/CController.php(286): BaseController->runAction()
+#2 /var/www/html/yii/framework/web/CController.php(265): BaseController->runActionWithFilters()
+#3 /var/www/html/yii/framework/web/CWebApplication.php(282): BaseController->run()
+#4 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#5 /var/www/html/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#6 /var/www/html/demo/index.php(13): CWebApplication->run()
+REQUEST_URI=/demo/index.php?r=Base/ai
+in /var/www/html/demo/protected/controllers/BaseController.php (18)
+in /var/www/html/demo/index.php (13)
+2018/05/28 22:46:20 [error] [php] mysqli_num_rows() expects parameter 1 to be mysqli_result, integer given (/var/www/html/demo/protected/controllers/BaseController.php:19)
+Stack trace:
+#0 /var/www/html/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /var/www/html/yii/framework/web/CController.php(286): BaseController->runAction()
+#2 /var/www/html/yii/framework/web/CController.php(265): BaseController->runActionWithFilters()
+#3 /var/www/html/yii/framework/web/CWebApplication.php(282): BaseController->run()
+#4 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#5 /var/www/html/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#6 /var/www/html/demo/index.php(13): CWebApplication->run()
+REQUEST_URI=/demo/index.php?r=Base/ai
+in /var/www/html/demo/protected/controllers/BaseController.php (19)
+in /var/www/html/demo/index.php (13)
+2018/05/28 22:53:33 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'inset into user(name,email,password) values('shahrukh khan','srk@gmail.com','619' at line 1. The SQL statement executed was: inset into user(name,email,password) values('shahrukh khan','srk@gmail.com','619619').
+in /var/www/html/demo/protected/controllers/BaseController.php (18)
+in /var/www/html/demo/index.php (13)
+2018/05/28 22:53:33 [error] [exception.CDbException] CDbException: CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'inset into user(name,email,password) values('shahrukh khan','srk@gmail.com','619' at line 1. The SQL statement executed was: inset into user(name,email,password) values('shahrukh khan','srk@gmail.com','619619') in /var/www/html/yii/framework/db/CDbCommand.php:358
+Stack trace:
+#0 /var/www/html/demo/protected/controllers/BaseController.php(18): CDbCommand->execute()
+#1 /var/www/html/yii/framework/web/actions/CInlineAction.php(49): BaseController->actionai()
+#2 /var/www/html/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#3 /var/www/html/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#4 /var/www/html/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 /var/www/html/yii/framework/web/CWebApplication.php(282): CController->run('ai')
+#6 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('Base/ai')
+#7 /var/www/html/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#8 /var/www/html/demo/index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/demo/index.php?r=Base/ai
+HTTP_REFERER=http://localhost/demo/index.php?r=Base/ai
+---
+2018/05/28 22:58:59 [error] [php] Undefined variable: sql (/var/www/html/demo/protected/controllers/BaseController.php:31)
+Stack trace:
+#0 /var/www/html/yii/framework/web/CController.php(286): BaseController->runAction()
+#1 /var/www/html/yii/framework/web/CController.php(265): BaseController->runActionWithFilters()
+#2 /var/www/html/yii/framework/web/CWebApplication.php(282): BaseController->run()
+#3 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /var/www/html/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#5 /var/www/html/demo/index.php(13): CWebApplication->run()
+REQUEST_URI=/demo/index.php?r=Base/ai
+in /var/www/html/demo/protected/controllers/BaseController.php (31)
+in /var/www/html/demo/index.php (13)
+2018/05/28 22:59:02 [error] [php] Undefined variable: sql (/var/www/html/demo/protected/controllers/BaseController.php:31)
+Stack trace:
+#0 /var/www/html/yii/framework/web/CController.php(286): BaseController->runAction()
+#1 /var/www/html/yii/framework/web/CController.php(265): BaseController->runActionWithFilters()
+#2 /var/www/html/yii/framework/web/CWebApplication.php(282): BaseController->run()
+#3 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /var/www/html/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#5 /var/www/html/demo/index.php(13): CWebApplication->run()
+REQUEST_URI=/demo/index.php?r=Base/ai
+in /var/www/html/demo/protected/controllers/BaseController.php (31)
+in /var/www/html/demo/index.php (13)
+2018/05/28 22:59:17 [error] [exception.CException] CException: CDbCommand and its behaviors do not have a method or closure named "fetchall". in /var/www/html/yii/framework/base/CComponent.php:266
+Stack trace:
+#0 /var/www/html/demo/protected/controllers/BaseController.php(31): CComponent->__call('fetchall', Array)
+#1 /var/www/html/yii/framework/web/actions/CInlineAction.php(49): BaseController->actionai()
+#2 /var/www/html/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#3 /var/www/html/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#4 /var/www/html/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 /var/www/html/yii/framework/web/CWebApplication.php(282): CController->run('ai')
+#6 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('Base/ai')
+#7 /var/www/html/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#8 /var/www/html/demo/index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/demo/index.php?r=Base/ai
+---
+2018/05/28 22:59:42 [error] [exception.ParseError] ParseError: syntax error, unexpected '$data' (T_VARIABLE), expecting '(' in /var/www/html/demo/protected/views/base/ai.php:40
+Stack trace:
+#0 /var/www/html/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/html/d...', Array, true)
+#1 /var/www/html/yii/framework/web/CController.php(872): CBaseController->renderFile('/var/www/html/d...', Array, true)
+#2 /var/www/html/yii/framework/web/CController.php(785): CController->renderPartial('ai', Array, true)
+#3 /var/www/html/demo/protected/controllers/BaseController.php(32): CController->render('ai', Array)
+#4 /var/www/html/yii/framework/web/actions/CInlineAction.php(49): BaseController->actionai()
+#5 /var/www/html/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#6 /var/www/html/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#7 /var/www/html/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/html/yii/framework/web/CWebApplication.php(282): CController->run('ai')
+#9 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('Base/ai')
+#10 /var/www/html/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#11 /var/www/html/demo/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/demo/index.php?r=Base/ai
+---
+2018/05/28 23:08:28 [error] [php] Undefined variable: rs (/var/www/html/demo/protected/controllers/BaseController.php:32)
+Stack trace:
+#0 /var/www/html/yii/framework/web/CController.php(286): BaseController->runAction()
+#1 /var/www/html/yii/framework/web/CController.php(265): BaseController->runActionWithFilters()
+#2 /var/www/html/yii/framework/web/CWebApplication.php(282): BaseController->run()
+#3 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /var/www/html/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#5 /var/www/html/demo/index.php(13): CWebApplication->run()
+REQUEST_URI=/demo/index.php?r=Base/ai
+in /var/www/html/demo/protected/controllers/BaseController.php (32)
+in /var/www/html/demo/index.php (13)
+2018/05/28 23:08:45 [error] [php] Array to string conversion (/var/www/html/demo/protected/views/base/ai.php:49)
+Stack trace:
+#0 /var/www/html/yii/framework/web/CController.php(872): BaseController->renderFile()
+#1 /var/www/html/yii/framework/web/CController.php(785): BaseController->renderPartial()
+#2 /var/www/html/demo/protected/controllers/BaseController.php(32): BaseController->render()
+#3 /var/www/html/yii/framework/web/actions/CInlineAction.php(49): BaseController->actionai()
+#4 /var/www/html/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /var/www/html/yii/framework/web/CController.php(286): BaseController->runAction()
+#6 /var/www/html/yii/framework/web/CController.php(265): BaseController->runActionWithFilters()
+#7 /var/www/html/yii/framework/web/CWebApplication.php(282): BaseController->run()
+#8 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /var/www/html/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#10 /var/www/html/demo/index.php(13): CWebApplication->run()
+REQUEST_URI=/demo/index.php?r=Base/ai
+in /var/www/html/demo/protected/views/base/ai.php (49)
+in /var/www/html/demo/protected/controllers/BaseController.php (32)
+in /var/www/html/demo/index.php (13)
+2018/05/28 23:24:36 [error] [php] Undefined variable: sql (/var/www/html/demo/protected/controllers/BaseController.php:10)
+Stack trace:
+#0 /var/www/html/yii/framework/web/CController.php(286): BaseController->runAction()
+#1 /var/www/html/yii/framework/web/CController.php(265): BaseController->runActionWithFilters()
+#2 /var/www/html/yii/framework/web/CWebApplication.php(282): BaseController->run()
+#3 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /var/www/html/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#5 /var/www/html/demo/index.php(13): CWebApplication->run()
+REQUEST_URI=/demo/index.php?r=Base/ai
+in /var/www/html/demo/protected/controllers/BaseController.php (10)
+in /var/www/html/demo/index.php (13)
+2018/05/28 23:29:37 [error] [php] Undefined variable: trun (/var/www/html/demo/protected/controllers/BaseController.php:10)
+Stack trace:
+#0 /var/www/html/yii/framework/web/CController.php(286): BaseController->runAction()
+#1 /var/www/html/yii/framework/web/CController.php(265): BaseController->runActionWithFilters()
+#2 /var/www/html/yii/framework/web/CWebApplication.php(282): BaseController->run()
+#3 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /var/www/html/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#5 /var/www/html/demo/index.php(13): CWebApplication->run()
+REQUEST_URI=/demo/index.php?r=Base/ai
+in /var/www/html/demo/protected/controllers/BaseController.php (10)
+in /var/www/html/demo/index.php (13)
+2018/05/28 23:46:07 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "ai\". in /var/www/html/yii/framework/web/CController.php:486
+Stack trace:
+#0 /var/www/html/yii/framework/web/CController.php(270): CController->missingAction('ai\\')
+#1 /var/www/html/yii/framework/web/CWebApplication.php(282): CController->run('ai\\')
+#2 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('Base/ai\\')
+#3 /var/www/html/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /var/www/html/demo/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/demo/index.php?r=Base/ai\
+---
+2018/05/28 23:46:16 [error] [exception.Error] Error: Array callback has to contain indices 0 and 1 in /var/www/html/demo/protected/controllers/BaseController.php:39
+Stack trace:
+#0 /var/www/html/yii/framework/web/actions/CInlineAction.php(49): BaseController->actiondel()
+#1 /var/www/html/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#2 /var/www/html/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#3 /var/www/html/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 /var/www/html/yii/framework/web/CWebApplication.php(282): CController->run('del')
+#5 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('Base/del/?id=1')
+#6 /var/www/html/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#7 /var/www/html/demo/index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/demo/index.php?r=Base/del/?id=1
+HTTP_REFERER=http://localhost/demo/index.php?r=Base/ai
+---
+2018/05/28 23:49:05 [error] [php] Undefined index: $id (/var/www/html/demo/protected/controllers/BaseController.php:39)
+Stack trace:
+#0 /var/www/html/yii/framework/web/CController.php(286): BaseController->runAction()
+#1 /var/www/html/yii/framework/web/CController.php(265): BaseController->runActionWithFilters()
+#2 /var/www/html/yii/framework/web/CWebApplication.php(282): BaseController->run()
+#3 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /var/www/html/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#5 /var/www/html/demo/index.php(13): CWebApplication->run()
+REQUEST_URI=/demo/index.php?r=Base/del/?id=1
+in /var/www/html/demo/protected/controllers/BaseController.php (39)
+in /var/www/html/demo/index.php (13)
+2018/05/28 23:49:17 [error] [php] Undefined index: id (/var/www/html/demo/protected/controllers/BaseController.php:39)
+Stack trace:
+#0 /var/www/html/yii/framework/web/CController.php(286): BaseController->runAction()
+#1 /var/www/html/yii/framework/web/CController.php(265): BaseController->runActionWithFilters()
+#2 /var/www/html/yii/framework/web/CWebApplication.php(282): BaseController->run()
+#3 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /var/www/html/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#5 /var/www/html/demo/index.php(13): CWebApplication->run()
+REQUEST_URI=/demo/index.php?r=Base/del/?id=1
+in /var/www/html/demo/protected/controllers/BaseController.php (39)
+in /var/www/html/demo/index.php (13)
+2018/05/28 23:50:08 [error] [php] Undefined index: id (/var/www/html/demo/protected/controllers/BaseController.php:39)
+Stack trace:
+#0 /var/www/html/yii/framework/web/CController.php(286): BaseController->runAction()
+#1 /var/www/html/yii/framework/web/CController.php(265): BaseController->runActionWithFilters()
+#2 /var/www/html/yii/framework/web/CWebApplication.php(282): BaseController->run()
+#3 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /var/www/html/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#5 /var/www/html/demo/index.php(13): CWebApplication->run()
+REQUEST_URI=/demo/index.php?r=Base/del/?id=2
+in /var/www/html/demo/protected/controllers/BaseController.php (39)
+in /var/www/html/demo/index.php (13)
+2018/05/28 23:50:17 [error] [php] Undefined index: id (/var/www/html/demo/protected/controllers/BaseController.php:39)
+Stack trace:
+#0 /var/www/html/yii/framework/web/CController.php(286): BaseController->runAction()
+#1 /var/www/html/yii/framework/web/CController.php(265): BaseController->runActionWithFilters()
+#2 /var/www/html/yii/framework/web/CWebApplication.php(282): BaseController->run()
+#3 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /var/www/html/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#5 /var/www/html/demo/index.php(13): CWebApplication->run()
+REQUEST_URI=/demo/index.php?r=Base/del/?id=3
+in /var/www/html/demo/protected/controllers/BaseController.php (39)
+in /var/www/html/demo/index.php (13)
+2018/05/28 23:51:42 [error] [php] Undefined index: id (/var/www/html/demo/protected/controllers/BaseController.php:39)
+Stack trace:
+#0 /var/www/html/yii/framework/web/CController.php(286): BaseController->runAction()
+#1 /var/www/html/yii/framework/web/CController.php(265): BaseController->runActionWithFilters()
+#2 /var/www/html/yii/framework/web/CWebApplication.php(282): BaseController->run()
+#3 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /var/www/html/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#5 /var/www/html/demo/index.php(13): CWebApplication->run()
+REQUEST_URI=/demo/index.php?r=Base/del/?id=1
+in /var/www/html/demo/protected/controllers/BaseController.php (39)
+in /var/www/html/demo/index.php (13)
+2018/05/28 23:52:36 [error] [php] Undefined index: id (/var/www/html/demo/protected/controllers/BaseController.php:39)
+Stack trace:
+#0 /var/www/html/yii/framework/web/CController.php(286): BaseController->runAction()
+#1 /var/www/html/yii/framework/web/CController.php(265): BaseController->runActionWithFilters()
+#2 /var/www/html/yii/framework/web/CWebApplication.php(282): BaseController->run()
+#3 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /var/www/html/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#5 /var/www/html/demo/index.php(13): CWebApplication->run()
+REQUEST_URI=/demo/index.php?r=Base/del/?id=3
+in /var/www/html/demo/protected/controllers/BaseController.php (39)
+in /var/www/html/demo/index.php (13)
+2018/05/28 23:58:32 [error] [exception.Error] Error: Access to undeclared static property: Yii::$app in /var/www/html/demo/protected/controllers/BaseController.php:39
+Stack trace:
+#0 /var/www/html/yii/framework/web/actions/CInlineAction.php(49): BaseController->actiondel()
+#1 /var/www/html/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#2 /var/www/html/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#3 /var/www/html/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 /var/www/html/yii/framework/web/CWebApplication.php(282): CController->run('del')
+#5 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('Base/del/?id=1')
+#6 /var/www/html/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#7 /var/www/html/demo/index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/demo/index.php?r=Base/del/?id=1
+HTTP_REFERER=http://localhost/demo/index.php?r=Base/ai
+---
+2018/05/29 00:01:31 [error] [exception.Error] Error: Access to undeclared static property: Yii::$app in /var/www/html/demo/protected/controllers/BaseController.php:39
+Stack trace:
+#0 /var/www/html/yii/framework/web/actions/CInlineAction.php(49): BaseController->actiondel()
+#1 /var/www/html/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#2 /var/www/html/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#3 /var/www/html/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 /var/www/html/yii/framework/web/CWebApplication.php(282): CController->run('del')
+#5 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('Base/del/')
+#6 /var/www/html/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#7 /var/www/html/demo/index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/demo/index.php?r=Base/del/&id=1
+HTTP_REFERER=http://localhost/demo/index.php?r=Base/ai
+---
